@@ -4,12 +4,12 @@ def add_task(name):
     tasks.append(name)
 
 def show_tasks():
-    print("=== 待辦清單 ===")
+    print("=== Todo List ===")
     for i, t in enumerate(tasks, 1):
         print(f"{i}. {t}")
 
 def main():
-    add_task("學習 Git")
+    add_task("Learn Git")
     show_tasks()
 
 if __name__ == "__main__":
